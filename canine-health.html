@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ailanthus LifeScience</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="LifeScience" name="keywords" />
+        <meta content="LifeScience" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet" />
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-xl bg-white navbar-light shadow-sm py-3 py-xl-0 px-3 px-xl-0 sfx-navbar">
+            <a href="index.html" class="navbar-brand ms-lg-5">
+                <img src="img/Ailanthuslogo.png" class="d-block logo-ailanthus" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto me-5 py-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Business Division</a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="human-health.html">Human Health</a></li>
+                            <li class="dropend">
+                                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Animals</a>
+                                <ul class="dropdown-menu shadow">
+                                    <li><a class="dropdown-item" href="animal-health.html"> Animal Health</a></li>
+                                    <li><a class="dropdown-item" href="ruminant-health.html"> Ruminant Health</a></li>
+                                    <li><a class="dropdown-item" href="poultry-health.html"> Poultry Health</a></li>
+                                    <li><a class="dropdown-item" href="canine-health.html"> Canine Health</a></li>
+                                    <li><a class="dropdown-item" href="equine-health.html"> Equine Health</a></li>
+                                    <li><a class="dropdown-item" href="aqua-health.html"> Aqua Health</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="global-presence.html">Global Presence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Career</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Dog1.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Aqua2.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Aqua3.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-12 col-sm-3 p-0 lefsideMenu">
+                    <div class="p-3">
+                        <h3 class="text-white">Business</h3>
+
+                        <ul class="nav pb-3">
+                            <li><a href="api.html">API</a></li>
+                            <li><a href="human-health.html">HUMAN HEALTH</a></li>
+                            <li>
+                                <a href="animal-health.html">ANIMAL HEALTH</a>
+                                <ul id="accordion">
+                                    <li><a class="active" data-parent="#accordion" data-target="#runinant" data-toggle="collapse" href="ruminant-health.html">- RUMINANT HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#poultry" data-toggle="collapse" href="poultry-health.html">- POULTRY HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#companion" data-toggle="collapse" href="companion-animal-health.html">- COMPANION ANIMAL HEALTH</a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#equine" data-toggle="collapse" href="equine-health.html">- EQUINE HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#aqua" data-toggle="collapse" href="aqua-health.html">- AQUA HEALTH </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="agriculture.html">AGRICULTURE</a>
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <a href="img/AilanthusAssorted_Product_Broucher.pdf" download="" target="_blank">
+                                <img src="img/IconPdf.png" alt="W3Schools" width="60px;" height="60px;" />
+                            </a>
+                            <a href="img/AilanthusProductBroucher.pdf" download="" target="_blank">
+                                <img src="img/IconPdf.png" alt="W3Schools" width="60px;" height="60px;" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 rightcntnt contentBox">
+                    <h2>COMPANION ANIMAL HEALTH</h2>
+
+                    <div class="col-12 col-sm-12 text-center table-responsive">
+                    
+                    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#Anthelmintics">Anthelmintics</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Nutricare">Nutricare</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Multivitamin">MultiVitamin</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#Antibiotics">Antibiotics</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#NSAIDs">NSAIDs</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#SkinCare">Skin Care</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active p-0" id="Anthelmintics">
+  <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+  <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  AILMINTH 2.5% SUSP
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Albendazole 2.5% Flavor Susp
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "30 ml, 60 ml
+                                                  & 100 ml"
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  AILFEN 2.5% SUSP
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Fenbendazole 2.5% Flavour Susp
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "30 ml, 60 ml& 100 ml"
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  AILMINTH PLUS
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Albendazole 300 mg + Praziquatel 25 mg
+
+                                                </td>
+                                                <td class="table_a">
+                                                  12 x 1 s
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  PRAZILAN
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Pyrantel Embonate + Praziquatel+ Oxantel Embonate"
+
+                                                </td>
+                                                <td class="table_a">
+                                                  1 X2 s
+                                                </td>
+                                            </tr>
+
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  PRAZILAN PLUS
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Praziquantel + Pyrantel Pamoate
+                                                  + Fenbendazole"
+                                                  
+                                                </td>
+                                                <td class="table_a">
+                                                  12 x 1 s
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  LANMEC 1% INJ.
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Ivermectin 1% Inj
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "10 ml, 20 ml, 30 ml,50 ml & 100 ml"
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  DORALAN  1% INJ.
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Doramectin 1% Injection
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "10 ml, 20 ml, 30 ml,
+                                                  50 ml & 100 ml"
+                                                  
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  LANMEC-P (small)
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Ivermectin 68 mcg + Pyrantel Pamoate 57 mg
+
+                                                </td>
+                                                <td class="table_a">
+                                                  6 S TABLET
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  LANMEC-P (Medium)
+
+                                                </td>
+                                                <td class="table_a">
+                                                  Ivermectin 136 mcg + Pyrantel Pamoate 114 mg
+
+                                                </td>
+                                                <td class="table_a">
+                                                  6 S TABLET
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                              <td class="table_a">
+                                                LANMEC-P (Large)
+
+
+                                              </td>
+                                              <td class="table_a">
+                                                Ivermectin 272 mcg + Pyrantel Pamoate 227 mg
+                                              </td>
+                                              <td class="table_a">
+                                                6 S TABLET
+                                              </td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+  </div>
+  </div>
+  
+  <div class="tab-pane container fade p-0" id="Nutricare">
+  <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+<table class="table table-bordered table-hover">
+   <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  AILANCAL PET
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Each 5 ml contains:
+                                                  Calcium ............................................ 82.5 mg
+                                                  Phosphorus .................................... 42.5 mg
+                                                  Vitamin D3 ........................................... 400 IU
+                                                  Vitamin B12 ......................................... 5 mcg
+                                                  Carbohydrates .......................... 2000 mg"
+                                                  
+                                                </td>
+                                                <td class="table_a">
+                                                  100 ml & 200 ml
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  AILANVIT PET
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Each tablet contains:
+                                                  Vitamin A ….......................................... 1800 IU
+                                                  Vitamin B1 ….........................................… 2 mg
+                                                  Vitamin B2 …......................................... 1.5 mg
+                                                  Vitamin B6 …....................................... 0.3 mg
+                                                  Vitamin B12 …................................ 0.025 mg
+                                                  Vitamin D3 ........................................... 250 IU
+                                                  Folic Acid ….................................... 0.050 mg
+                                                  Niacinamide ….................................... 10 mg
+                                                  Calcium ............................................…. 75 mg
+                                                  Phosphorus .....................................… 55 mg
+                                                  Copper ........................................... 0.050 mg
+                                                  Manganese ........................................... 2 mg
+                                                  Cobalt ............................................. 0.020 mg
+                                                  Iron ............................................................... 1 mg
+                                                  Iodine .............................................. 0.060 mg
+                                                  Magnesium ........................................... 3 mg
+                                                  Sodium ..................................................... 7 mg
+                                                  Chloride ................................................. 10 mg
+                                                   Inositol ..................................................... 4 mg
+                                                  DHA ......................................................... 0.2 mg
+                                                  Protein ................................................ 300 mg"
+                                                  
+                                                </td>
+                                                <td class="table_a">
+                                                  60s Tablet
+
+                                                </td>
+                                            </tr>
+                                          
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DOGGIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    WEANING FORMULA
+                                                </td>
+                                                <td class="table_a">
+                                                    400 GM
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  LAN-O-JOINT
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Each 5 gm powder contains:
+                                                  Glucosamine hydrochloride .... 500 mg
+                                                  Chondroitin sulfate .................... 400 mg
+                                                  MSM (Methyl Sulfonyl Methane) 
+                                                  ....................................................................... 51mg
+                                                  Mangnesium sulphate .................. 5 mg
+                                                  Vitamin C ............................................. 80 mg
+                                                  Zinc ............................................................ 15 mg
+                                                  Vitamin E… ............................................. 10 mg
+                                                  Yucca schidigera extract …........ 10 mg
+                                                  Boswellia Serrate extract .......... 50 mg"
+                                                  
+                                                </td>
+                                                <td class="table_a">
+                                                  100 gm
+
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                  LANPRO PET
+
+
+                                                </td>
+                                                <td class="table_a">
+                                                  "Each 1 gm contains: 
+                                                  MOS + Betaglucan …………….. 10 mg 
+                                                  Fermented Live Yeast Culture … 20 mg
+                                                  Saccharomyces boulardii
+                                                  .....……........................................ 2.5 million CFU 
+                                                  Bacillus Subtillis ................ 5 million CFU 
+                                                  Bacillus Licheniformis ......... 5 million CFU 
+                                                  Zinc .......................................................... 20 mg 
+                                                  Manganese ........................................ 20 mg 
+                                                  Copper ...................................................... 1 mg"
+                                                  
+                                                <td class="table_a">
+                                                  100 gm
+                                                </td>
+                                            </tr>
+                                           
+                                        </tbody>
+     </table>   
+  </div>
+  </div>
+  <div class="tab-pane container fade p-0" id="Multivitamin">
+    <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+      <table class="table table-bordered table-hover">
+     <tbody>
+                          <tr align="left">
+                            <th>
+                              BRAND NAME
+                            </th>
+                            <th>
+                              COMPOSITION
+                            </th>
+                            <th>
+                              PRESENTATION
+                            </th>
+                          </tr>
+                          <tr align="left">
+                            <td class="table_a">
+                              VITALAN AD3 Injection
+  
+                            </td>
+                            <td class="table_a">
+                              Vitamin A, D3 E & Multivitamin Inj
+  
+                            </td>
+                            <td class="table_a">
+                              "30 ml, 50 ml
+                              & 100 ml"
+                              
+                            </td>
+                          </tr>
+                          <tr align="left">
+                            <td class="table_a">
+                              BUTALAN  Injection
+  
+                            </td>
+                            <td class="table_a">
+                              Butaphosphan & Cyanocobalmin
+  
+                            </td>
+                            <td class="table_a">
+                              "30 ml, 50 ml
+                              & 100 ml"
+                              
+                            </td>
+                          </tr>
+                          <tr align="left">
+                            <td class="table_a">
+                              BECOLAN  Injection
+  
+                            </td>
+                            <td class="table_a">
+                              B-complex & Liver Extract
+  
+                            </td>
+                            <td class="table_a">
+                              "30 ml, 50 ml
+                              & 100 ml"
+                              
+                            </td>
+                          </tr>
+                         
+                        </tbody>
+                      </table>                            
+    </div>
+    </div>
+  
+  <div class="tab-pane container fade p-0" id="Antibiotics">
+  <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+    <table class="table table-bordered table-hover">
+   <tbody>
+                        <tr align="left">
+                          <th>
+                            BRAND NAME
+                          </th>
+                          <th>
+                            COMPOSITION
+                          </th>
+                          <th>
+                            PRESENTATION
+                          </th>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANMOX 500 MG INJ.
+
+
+                          </td>
+                          <td class="table_a">
+                            Amoxicilline 500 mg Injection
+
+
+                          </td>
+                          <td class="table_a">
+                            500 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANMOX PLUS INJ.
+
+
+                          </td>
+                          <td class="table_a">
+                            "Amoxicilline 250 +
+                            Cloxacillin 250  Injection"
+                            
+
+                          </td>
+                          <td class="table_a">
+                            500 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANMOX-SB
+
+
+                          </td>
+                          <td class="table_a">
+                            Amoxicillin + Salbactum
+
+
+                          </td>
+                          <td class="table_a">
+                            300 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCILLIN 500 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Ampicillin 500 mg
+
+
+                          </td>
+                          <td class="table_a">
+                            500 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            VITALAN AD3 Injection
+
+                          </td>
+                          <td class="table_a">
+                            Ampicillin + Cloxacillin
+
+
+                          </td>
+                          <td class="table_a">
+                            500 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCEFT 500 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Ceftriaxone
+
+
+                          </td>
+                          <td class="table_a">
+                            500 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCEFT-TZ
+                          </td>
+                          <td class="table_a">
+                            Ceftriaxone + Tazobactum
+
+                          <td class="table_a">
+                            562.5 mg with WFI
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCICYCLIN 5%
+
+
+                          </td>
+                          <td class="table_a">
+                            Oxytetracycline 5% Injection
+
+
+                          </td>
+                          <td class="table_a">
+                            "30 ml, 50 ml
+                            & 100 ml"
+                            
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            TYLOLAN  5% INJ.
+
+
+                          </td>
+                          <td class="table_a">
+                            Tylosine Tartrtrate  5% Inj
+
+                          </td>
+                          <td class="table_a">
+                            30 ml, 50 ml
+                            & 100 ml
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            ENROLAN 10% INJ.
+
+
+                          </td>
+                          <td class="table_a">
+                            Enrofloxacin 10% Inj
+
+                          </td>
+                          <td class="table_a">
+                            "30 ml, 50 ml
+                            & 100 ml"
+                            
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANFLOX -E 50 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Enrofloxacine 50 mg Tablet
+
+
+                          </td>
+                          <td class="table_a">
+                            10 x 10 tab
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANFLOX -E 150 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Enrofloxacine 150 mg Tablet
+
+                          </td>
+                          <td class="table_a">
+                            10 x 10 tab
+
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCIP 250 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Ciprofloxacine 250 mg Tab
+
+                          </td>
+                          <td class="table_a">
+                            1 x 10 tab
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANMOX-CL 250 MG
+
+
+                          </td>
+                          <td class="table_a">
+                            Amoxicillin 200mg + Clavulanic Acid 50 mg
+                          </td>
+                          <td class="table_a">
+                            10 x 10 tab
+                          </td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>                            
+  </div>
+  </div>
+
+    
+  
+  
+  <div class="tab-pane container fade p-0" id="NSAIDs">
+  <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+  <table class="table table-bordered table-hover">
+  <tbody>
+                        <tr align="left">
+                          <th>
+                            BRAND NAME
+                          </th>
+                          <th>
+                            COMPOSITION
+                          </th>
+                          <th>
+                            PRESENTATION
+                          </th>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            MELOXILAN SUSP
+
+                          </td>
+                          <td class="table_a">
+                            Meloxicam 1.5 mg/ml Suspension
+
+                          </td>
+                          <td class="table_a">
+                            "10 ml, 30 ml
+                            & 100 ml"
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            MELOXIKAM 5% injection
+                          </td>
+                          <td class="table_a">
+                            Melocicam 5% injection
+                          </td>
+                          <td class="table_a">
+                            30 ml, 50 ml &amp; 100 ml
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            CARPROLAN 100
+
+                          </td>
+                          <td class="table_a">
+                            Carprofen 100 mg  Tablets
+
+                          </td>
+                          <td class="table_a">
+                            60's container
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANPROFEN 75
+
+                          </td>
+                          <td class="table_a">
+                            Carprofen 75 mg Tablets
+
+                          </td>
+                          <td class="table_a">
+                            60's container
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANPROFEN 50
+
+                          </td>
+                          <td class="table_a">
+                            Carprofen 50 mg  Tablets
+
+                          </td>
+                          <td class="table_a">
+                            60's container
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANPROFEN 25
+
+                          </td>
+                          <td class="table_a">
+                            Carprofen 25 mg Tablets
+
+                          </td>
+                          <td class="table_a">
+                            60's container
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANPROFEN 5% INJ.
+
+                          </td>
+                          <td class="table_a">
+                            Carprofen 5% Injection
+
+                          </td>
+                          <td class="table_a">
+                            10ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            KETOLAN 5
+
+                          </td>
+                          <td class="table_a">
+                            Ketoprofen 5 mg Tablets
+
+                          </td>
+                          <td class="table_a">
+                            10's strip
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            KETOLAN 20
+
+                          </td>
+                          <td class="table_a">
+                            Ketoprofen 20 mg Tablets
+
+                          </td>
+                          <td class="table_a">
+                            10's strip
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            KETOLAN 10% INJ.
+
+                          </td>
+                          <td class="table_a">
+                            Ketoprofen 10% Injection
+
+                          </td>
+                          <td class="table_a">
+                            "30 ml, 50 ml
+                            & 100 ml"
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            FLUNILAN INJ.
+
+                          </td>
+                          <td class="table_a">
+                            Flunixine Meglumine Injection
+
+                          </td>
+                          <td class="table_a">
+                            "30 ml, 50 ml
+                            & 100 ml"
+                          
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+  </div>
+  </div>
+  
+  <div class="tab-pane container fade p-0" id="SkinCare">
+  <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+  <table class="table table-bordered table-hover">
+   <tbody>
+                        <tr align="left">
+                          <th>
+                            BRAND NAME
+                          </th>
+                          <th>
+                            COMPOSITION
+                          </th>
+                          <th>
+                            PRESENTATION
+                          </th>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCONAZOLE-K
+
+                          </td>
+                          <td class="table_a">
+                            Ketoconazole + Chlorhexidine Shampoo
+
+                          </td>
+                          <td class="table_a">
+                            100 ml & 200 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCONAZOLE-M
+
+                          </td>
+                          <td class="table_a">
+                            Miconazole + Chlorhexidine Shampoo
+
+                          </td>
+                          <td class="table_a">
+                            100 ml & 200 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANCICYCLIN SPRAY
+
+                          </td>
+                          <td class="table_a">
+                            Oxytetracycline Spray
+
+                          </td>
+                          <td class="table_a">
+                            200 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            PET -O-LAN
+
+                          </td>
+                          <td class="table_a">
+                            Herbal Cleansing Conditionar Shampoo
+
+                          </td>
+                          <td class="table_a">
+                            200 ml
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            OATILAN
+
+                          </td>
+                          <td class="table_a">
+                            Oatmeal Scrub
+
+                          </td>
+                          <td class="table_a">
+                            200 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            FIPROLAN SPRAY 0.25%
+
+                          </td>
+                          <td class="table_a">
+                            Fipronil 0.25 % Spray
+
+                          </td>
+                          <td class="table_a">
+                            100 ml & 250 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            CYPERLAN 1%
+
+                          </td>
+                          <td class="table_a">
+                            Cypermethrine 1% Shampoo
+
+                          </td>
+                          <td class="table_a">
+                            100 ml & 250 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            LANMETHRIN
+
+                          </td>
+                          <td class="table_a">
+                            Permehrine Spray
+
+                          </td>
+                          <td class="table_a">
+                            100 ml
+
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            AILANTRAZ  5%
+
+                          </td>
+                          <td class="table_a">
+                            Amitraz  5% Dip
+
+                          </td>
+                          <td class="table_a">
+                            "6 ml 15 ml
+                            & 50 ml"
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            AILANTRAZ  12.5%
+
+                          </td>
+                          <td class="table_a">
+                            Amitraz  12.5% Dip
+
+                          </td>
+                          <td class="table_a">
+                            "6 ml 15 ml
+                            & 50 ml"
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            FIPROLAN 9.7%
+
+
+
+                          </td>
+                          <td class="table_a">
+                            Fipronil 9.7 %
+
+                          </td>
+                          <td class="table_a">
+                            "0.67ml, 1.34 ml,
+                            2.68 ml & 4.02 ml"
+                            
+                          </td>
+                        </tr>
+                        <tr align="left">
+                          <td class="table_a">
+                            FIPROLAN PLUS
+
+                          </td>
+                          <td class="table_a">
+                            Fipronil 9.8%  + S-Methoprene 8.8%
+
+                          </td>
+                          <td class="table_a">
+                            "0.67ml, 1.34 ml,
+                            2.68 ml & 4.02 ml"
+                            
+                          </td>
+                        </tr>
+                      
+                      </tbody>
+                    </table>
+  </div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>101, Om Sainath Bhawan, <br />
+                            1st floor, Kalyan East, <br />
+                            Thane, India
+                        </p>
+                        <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@ailanthuslifescience.com</p>
+                        <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 9892710694</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-body mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-body mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About</a>
+                            <a class="text-body mb-2" href="global-presence.html"><i class="bi bi-arrow-right text-primary me-2"></i>Global Presence</a>
+                            <a class="text-body mb-2" href="career.html"><i class="bi bi-arrow-right text-primary me-2"></i>Career</a>
+                            <a class="text-body mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Business Division</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-body mb-2" href="human-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Human Health</a>
+                            <a class="text-body mb-2" href="animal-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Animal Health</a>
+                            <a class="text-body mb-2" href="ruminant-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ruminant Health</a>
+                            <a class="text-body mb-2" href="poultry-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Poultry Health</a>
+                            <a class="text-body mb-2" href="canine-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Canine Health</a>
+                            <a class="text-body mb-2" href="equine-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Equine Health</a>
+                            <a class="text-body" href="aqua-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Aqua Health</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Follow Us</h5>
+                        <div class="d-flex">
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center text-body">
+                        <a class="text-body" href="">Terms & Conditions</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Privacy Policy</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Customer Support</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Payments</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Help</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white-50 py-4">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-12 text-center text-md-start">
+                        <p class="mb-md-0">Copyright &copy; 2018<a class="text-white" href="#"> Ailanthus Life Science</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                // Hamburger menu
+                var navbarToggler = document.querySelectorAll(".navbar-toggler")[0];
+                navbarToggler.addEventListener("click", function (e) {
+                    e.target.children[0].classList.toggle("active");
+                });
+
+                // Select the <html> element
+                var html = document.querySelectorAll("html")[0];
+
+                // Select the first element with the attribute 'data-bs-toggle-theme'
+                var themeToggle = document.querySelectorAll("*[data-bs-toggle-theme]")[0];
+
+                // Set the default theme to 'dark' for the <html> element
+                html.setAttribute("data-bs-theme", "dark");
+
+                // Check if a themeToggle element is found
+                if (themeToggle) {
+                    // Add a click event listener to the themeToggle element
+                    themeToggle.addEventListener("click", function (event) {
+                        // Prevent the default behavior of the click event
+                        event.preventDefault();
+
+                        // Check the current theme attribute value of the <html> element
+                        if (html.getAttribute("data-bs-theme") === "dark") {
+                            // If the current theme is 'dark', change it to 'light'
+                            html.setAttribute("data-bs-theme", "light");
+                        } else {
+                            // If the current theme is not 'dark', change it back to 'dark'
+                            html.setAttribute("data-bs-theme", "dark");
+                        }
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>

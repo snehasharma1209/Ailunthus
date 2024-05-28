@@ -1,0 +1,38 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect form data
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+
+    // Email settings
+    $to = "recipient@example.com";
+    $subject = "New Contact Form Submission";
+    $headers = "From: $name <$email>";
+
+    // Email content (you can customize the HTML as needed)
+    $email_content = "
+        <html>
+        <head>
+            <title>New Contact Form Submission</title>
+        </head>
+        <body>
+            <h2>New Contact Form Submission</h2>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Message:</strong><br>$message</p>
+        </body>
+        </html>
+    ";
+
+    // Set the content type to HTML
+    $headers .= "\r\nContent-type: text/html";
+
+    // Send the email
+    if (mail($to, $subject, $email_content, $headers)) {
+        echo "Email sent successfully!";
+    } else {
+        echo "Error sending email.";
+    }
+}
+?>

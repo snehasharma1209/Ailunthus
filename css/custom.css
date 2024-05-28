@@ -1,0 +1,320 @@
+.logo-ailanthus
+{
+    height: 65px;
+    width:190px;
+}
+
+.dropdown-menu {
+    min-width: 12rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left:29px;
+    margin-top: -1px;
+}
+
+.dropend .dropdown-menu[data-bs-popper] {
+    margin-left: 0px;
+}
+
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 10px 0px;
+}
+
+// Animation to fade in the dropdown menus
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+// Assigning the above animation to all dropdown menus
+.dropdown-menu{
+    &.show{
+        -webkit-animation: fadeIn 0.3s alternate; /* Safari 4.0 - 8.0 */
+         animation: fadeIn 0.3s alternate;
+    }
+}
+
+// Mega Menu adjustments
+.nav-item.dropdown.dropdown-mega{
+    position: static;
+    .dropdown-menu{
+        width: 90%;
+        top: auto;
+        left: 5%;
+    }
+}
+
+// Complete styles for main navbar toggler and hamburger menu
+.navbar-toggler{
+    border: none;
+    padding: 0;
+    outline: none;
+    &:focus{
+        box-shadow: none;
+    }
+    .hamburger-toggle{
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        z-index: 11;
+        float: right;
+        .hamburger {
+            position: absolute;
+            transform: translate(-50%, -50%) rotate(0deg);
+            left: 50%;
+            top: 50%;
+            width: 50%;
+            height: 50%;
+            pointer-events: none;
+            span {
+                width: 100%;
+                height: 4px;
+                position: absolute;
+                background: #333;
+                border-radius: 2px;
+                z-index: 1;
+                transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s cubic-bezier(0.77,0.2,0.05,1.0), all 0.2s ease-in-out;
+                left: 0px;
+                &:first-child{
+                    top: 10%;
+                    transform-origin: 50% 50%;
+                    transform: translate(0% -50%) !important;
+                }
+                &:nth-child(2){
+                    top: 50%;
+                    transform: translate(0,-50%);
+                }
+                &:last-child{
+                    left: 0px;
+                    top: auto;
+                    bottom: 10%;
+                    transform-origin: 50% 50%;
+                }
+            }
+            &.active{
+                span {
+                    position: absolute;
+                    margin: 0;
+                    &:first-child{
+                        top: 45%;
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(2){
+                        left: 50%;
+                        width: 0px;
+                    }
+                    &:last-child{
+                        top: 45%;
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.icons{
+  display: inline-flex;
+  margin-left: auto;
+  a{
+    transition: all 0.2s ease-in-out;
+    padding: 0.2rem 0.4rem;
+    color: #ccc !important;
+    text-decoration: none;
+    &:hover{
+      color: white;
+      text-shadow: 0 0 30px white;
+    }
+  }
+}
+/* navigation section end */
+
+.mar-lft-100
+{
+    margin-left: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+        height: 3px;
+        top: 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #0098da;
+}
+
+#carouselExampleCaptionsProducts .carousel-indicators {
+    margin-bottom: -2rem;
+}
+.clr-0098DA
+{
+    color:#0098DA;
+}
+.bg-clr-0098DA
+{
+    background-color: #0098DA;
+}
+.bg-clr-2ebe2b
+{
+    background-color: #2ebe2b;
+}
+.psr-5
+{
+    padding-left: 50px;
+}
+.mbl-coreimg {
+   width: 100%;
+}
+.lefsideMenu
+{
+    background: #0098DA;
+    color: #FFF;
+    padding: 20px;
+    width: 21%;
+}
+.rightcntnt
+{
+    width: 79%;
+}
+
+.lefsideMenu .nav>li {
+display: block;
+width: 100%;
+padding-bottom: 12px;
+}
+
+.lefsideMenu .nav>li>a {
+        color: #FFF;
+        font-size: 18px;
+}
+
+.lefsideMenu .nav>li>ul>li>a, .lefsideMenu .nav>li>ul>li>ul>li>a {
+        color: #FFF;
+            font-size: 14px;
+}
+.lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li {
+        list-style: none;
+}
+
+.contentBox {
+    padding: 50px 20px;
+    color: #FFF;
+}
+
+.contentBox h2 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 35px;
+    color: #000;
+    text-align: center;
+}
+
+.contentBox p {
+    line-height: 30px;
+    color: #000;
+}
+.iconcow-width
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #00a859;
+}
+#exTab1 .tab-content {
+    color: #3e3e3e;
+    border: 5px solid #00a859;
+}
+.careerimg
+{
+    width: 100%;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #0098da;
+    border-color: #0098da #0098da #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-tabs .nav-link {
+    color: #7AB730;
+    background-color: #fff;
+    border-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width : 1200px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .navbar-collapse
+{
+        border-top: 1px solid #eee;
+}
+.logo-ailanthus {
+    padding-bottom: 10px;
+}
+    .navbar-light .navbar-nav .nav-link::before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0px;
+        top: 0px;
+        left: 0%;
+        background: #0098DA;
+        transition: .5s;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+.mar-lft-100
+{
+    margin-left: 0px;
+}
+.navbar-collapse
+{
+        border-top: 1px solid #eee;
+}
+.navbar-brand {
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.psr-5
+{
+    padding-left: 0px;
+}
+.mbl-coreimg {
+        width: 1200px;
+}
+.lefsideMenu
+{
+    width: 100%;
+}
+.rightcntnt
+{
+    width: 100%;
+}
+.careerimg
+{
+    width: 1200px;
+}
+.logo-ailanthus {
+    padding-bottom: 10px;
+}
+}

@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ailanthus LifeScience</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="LifeScience" name="keywords" />
+        <meta content="LifeScience" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet" />
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-xl bg-white navbar-light shadow-sm py-3 py-xl-0 px-3 px-xl-0 sfx-navbar">
+            <a href="index.html" class="navbar-brand ms-lg-5">
+                <img src="img/Ailanthuslogo.png" class="d-block logo-ailanthus" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto me-5 py-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Business Division</a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="human-health.html">Human Health</a></li>
+                            <li class="dropend">
+                                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Animals</a>
+                                <ul class="dropdown-menu shadow">
+                                    <li><a class="dropdown-item" href="animal-health.html"> Animal Health</a></li>
+                                    <li><a class="dropdown-item" href="ruminant-health.html"> Ruminant Health</a></li>
+                                    <li><a class="dropdown-item" href="poultry-health.html"> Poultry Health</a></li>
+                                    <li><a class="dropdown-item" href="canine-health.html"> Canine Health</a></li>
+                                    <li><a class="dropdown-item" href="equine-health.html"> Equine Health</a></li>
+                                    <li><a class="dropdown-item" href="aqua-health.html"> Aqua Health</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="global-presence.html">Global Presence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Career</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Equine1.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Equine2.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Equine3.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-12 col-sm-3 p-0 lefsideMenu">
+                    <div class="p-3">
+                        <h3 class="text-white">Business</h3>
+
+                        <ul class="nav pb-3">
+                            <li><a href="api.html">API</a></li>
+                            <li><a href="human-health.html">HUMAN HEALTH</a></li>
+                            <li>
+                                <a href="animal-health.html">ANIMAL HEALTH</a>
+                                <ul id="accordion">
+                                    <li><a class="active" data-parent="#accordion" data-target="#runinant" data-toggle="collapse" href="ruminant-health.html">- RUMINANT HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#poultry" data-toggle="collapse" href="poultry-health.html">- POULTRY HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#companion" data-toggle="collapse" href="companion-animal-health.html">- COMPANION ANIMAL HEALTH</a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#equine" data-toggle="collapse" href="equine-health.html">- EQUINE HEALTH </a></li>
+                                    <li><a class="collapsed" data-parent="#accordion" data-target="#aqua" data-toggle="collapse" href="aqua-health.html">- AQUA HEALTH </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="agriculture.html">AGRICULTURE</a>
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <a href="img/AilanthusAssorted_Product_Broucher.pdf" download="" target="_blank">
+                                <img src="img/IconPdf.png" alt="W3Schools" width="60px;" height="60px;" />
+                            </a>
+                            <a href="img/AilanthusProductBroucher.pdf" download="" target="_blank">
+                                <img src="img/IconPdf.png" alt="W3Schools" width="60px;" height="60px;" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 rightcntnt contentBox">
+                    <h2>EQUINE HEALTH</h2>
+
+                    <div class="col-12 col-sm-12 text-center table-responsive">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#Anthelmintics">Anthelmintics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#AntiInflamatory">Anti-Inflamatory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#FeedSupplement">Feed Supplement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#SkinCare">Skin Care</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#Disinfectant">Disinfectant</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#Others">Others</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane container active p-0" id="Anthelmintics">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    ALBOMINTH SUSPENSION
+                                                </td>
+                                                <td class="table_a">
+                                                    Albendazole 2.5% , 5%, 10% & 12.5% Suspension
+                                                </td>
+                                                <td class="table_a">
+                                                    100 ml, 250 ml, 500 ml and 1000 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FENGAURD SUSPENSION
+                                                </td>
+                                                <td class="table_a">
+                                                    Fenbendazole 2.5%, 5%, 10% and 12.5% Suspension
+                                                </td>
+                                                <td class="table_a">
+                                                    100 ml, 250 ml, 500 ml and 1000 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FENGAURD 20%
+                                                </td>
+                                                <td class="table_a">
+                                                    Fenbendazole 20% Granules
+                                                </td>
+                                                <td class="table_a">
+                                                    Pk. of 50sachets of 12gm each
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FASIKAM 3.4%
+                                                </td>
+                                                <td class="table_a">
+                                                    Oxyclozanide 3.4% suspension
+                                                </td>
+                                                <td class="table_a">
+                                                    100 ml, 250 ml, 500 ml and 1000 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMOXFEN 2.27%
+                                                </td>
+                                                <td class="table_a">
+                                                    Oxfendazole 2.27% suspension
+                                                </td>
+                                                <td class="table_a">
+                                                    100 ml, 250 ml, 500 ml and 1000 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    IVERKAM PLUS
+                                                </td>
+                                                <td class="table_a">
+                                                    Ivermectin 12mg + Praziquantel 150mg/gm
+                                                </td>
+                                                <td class="table_a">
+                                                    10gm
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    IVERKAM PLUS
+                                                </td>
+                                                <td class="table_a">
+                                                    Ivermectin 18.7mg + Praziquantel 140.3mg/gm
+                                                </td>
+                                                <td class="table_a">
+                                                    6.42 gm Syringe
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    IVERKAM PASTE
+                                                </td>
+                                                <td class="table_a">
+                                                    Ivermectin 120mg/6.42gm
+                                                </td>
+                                                <td class="table_a">
+                                                    6.42 gm Syringe
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    EQUIKAM PASTE
+                                                </td>
+                                                <td class="table_a">
+                                                    Pyrantel pamoate 11.41 gm / Syringe
+                                                </td>
+                                                <td class="table_a">
+                                                    26 gm Syringe
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane container fade p-0" id="AntiInflamatory">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FLUNIMAX
+                                                </td>
+                                                <td class="table_a">
+                                                    Flunixine meglumine 50 mg/ml Injection
+                                                </td>
+                                                <td class="table_a">
+                                                    30 ml, 50 ml and 100 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    MELOXIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Meloxicam 5 mg/ml Injection
+                                                </td>
+                                                <td class="table_a">
+                                                    30 ml, 50 ml and 100 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DEXAKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Dexamethasone 4 mg/ml injection
+                                                </td>
+                                                <td class="table_a">
+                                                    2 ml, 30 ml, 50 ml and 100 ml
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane container fade p-0" id="FeedSupplement">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th width="25%">
+                                                    BRAND NAME
+                                                </th>
+                                                <th width="45%">
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    CALCIKAM - E
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Vitamin A ……………………100,000 IU Vitamin D3…………………..20,000 IU Vitamin E………………………..2000 mg Calcium .........................30,000 mg Phosphorus ..................3500 mg
+                                                    Magnesium ...................2500 mg Copper ............................500mg Zinc ...............................1650 mg Folic Acid ........................500 mg Inosital
+                                                    ............................60 mg Cobalt ..............................10 mg Iodine ................................5 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg and 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    CALCIKAM SUPER
+                                                </td>
+                                                <td class="table_a">
+                                                    EEach Kg Contain Vitamin A ……………………500,000 IU Vitamin D3…………………..100,000 IU Vitamin E………………………..2500 mg Calcium .........................30,000 mg Phosphorus ..................12,000 mg
+                                                    Copper ............................350 mg Zinc ...............................1250 mg Folic Acid ........................200 mg Inosital ............................85 mg Cobalt
+                                                    ..............................10 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg and 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    HOOF CARE
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Calcium .........................50,000 mg Phosphorus ..................20,000 mg Biotin............................500 mg Gelatin..........................60 mg Sulphur
+                                                    ........................155 mg Methionine ................250,000 mg Choline Chloride...........6500 mg Zinc………………...........…2000 mg Magnesium……………….2000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg and 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FERRIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Lit Contain Ferric Ammonium Citrate.......15,000 mg Folic Acid ..................280 mg Vitamin B12...........200 mcg Zinc Sulphate ……………….50 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    MYOCARE
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Vitamin E .........................50,000 mg Vitamin B1 ..................1000 mg Selenium.......................100 mg Sodium Bicarbonate...........50,000 mg Choline
+                                                    Chloride...........100,000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg and 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    MUSCLE TONE
+                                                </td>
+                                                <td class="table_a">
+                                                    Each1000 ml Contain Vitamin E .........................2500 mg Ferric ammonium Citrate.......4200 mg Ferrous Sulphate......................9400 mg Sodium Glycerophosphate.........4200 mg
+                                                    Manganese Glycerophosphate....6500 mg Magnesium Glycerophosphate....5000 mg Choline Chloride ......................50000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    CRAMP CARE
+                                                </td>
+                                                <td class="table_a">
+                                                    Each 1000 ml Contain Vitamin C .........................5000 mg Vitamin E........................10,000 mg Vitamin B1.......................5000 mg Sodium Citrate ..................310,000
+                                                    mg Citric Acid ........................105,000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 Lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DIGIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Each 10 gm Contain Saccharomyces Boulardii.......2 x 109 CFU
+                                                </td>
+                                                <td class="table_a"></td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    BIOKAM-E
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Lactobacillus Acidophilus...........2 x 108 CFU Lactobacillus Bulgaricus...........2 x 108 CFU Lactobacillus Casei...................2 x 108 CFU Lactobacillus returi
+                                                    .................2 x 108 CFU Lactobacillus Lactis...........2 x 108 CFU Streptococcus Faecium...........2 x 108 CFU Aspergillus Oruzae ..............2 x 108 CFU Saccharomyces
+                                                    cervisiae...........2 x 108 CFU
+                                                </td>
+                                                <td class="table_a"></td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    PROTIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Digestable Energy .........4540 Kcal Protein Hydrolysate.......300,000 mg Lysine (50%)...................30,200 mg Methionine ....................22,000 mg Calcium
+                                                    ........................7000 mg Phosphorus ....................3500 mg Magnesium..................1250 mg Potassium.……...........…8500 mg Sodium………………........400 mg
+                                                    Sulphur.......................6200 mg Iron............................140 mg Zinc .................................24 mg Copper ...........................7.5 mg Manganese
+                                                    ....................35 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg & 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM -E
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain VITAMINS Vitamin A ............................500,000 IU Vitamin D3.........................100,000 IU Vitamin E ..............................2000 mg Vitamin B1
+                                                    .........................1625 mg Vitamin B2 .........................1610 mg Vitamin B6 .........................1055 mg Vitamin B12 .........................50 mcg Niacin .....
+                                                    .........................3600 mg Pantothenic Acid..............58 mg MINERALS Copper............................918 mg Zinc .................................450 mg
+                                                    Chloline...........................2800 mg Cobalt......... ....................10 mg Iodine ..............................10 mg Calcium ..........................120,000 mg Phosphorus
+                                                    ......................28,000 mg Magnesium ......................10,000 mg Inositol ...........................1250 mg Potassium ........................28 mg Sodium
+                                                    ...........................56 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg & 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM FORTE
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Vitamin A ............................500,000 IU Vitamin D3............................100,000 IU Vitamin E ..............................5200 mg Vitamin B1
+                                                    .........................1250 mg Vitamin B2 .........................1520 mg Vitamin B6 .........................1210 mg Vitamin B12 .........................50 mcg Folic Acid .....
+                                                    .....................580 mg Pantothenic Acid................650 mg Niacin................................2500 mg Selenium...........................500 mg Copper.........
+                                                    ....................500 mg Zinc .................................2200 mg Calcium ..........................120,000 mg Chloline ..........................3500 mg Cobalt .....
+                                                    ......................28 mg Iodine ..........................10 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg & 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM -BC
+                                                </td>
+                                                <td class="table_a">
+                                                    Each Kg Contain Vitamin B1 ............................3000 mg Vitamin B2 ............................3000 mg Vitamin B6 .............................500 mg Vitamin B12
+                                                    ............................15 mcg Vitamin E ............................3500 mg Chloline Chloride..................7200 mg Folic Acid ..... .....................816 mg
+                                                    Inositol...............................8000 mg Calcium.............................88000 mg Phosphorus .......................44000 mg Magnesium .... ..................12500 mg Potassium
+                                                    ..... ..................12500 mg Sodium ..........................120,000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg & 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    HAEMKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Each 5 ml Contain Vitamin B1 2............................9 mcg Vitamin B6 ............................2 mg Folic Acid............................0.5 mg Ferric Pyrophosphate...........100
+                                                    mg Sorbitol Solution.................4.4 ml ( Eq to not less than 73 % D Sorbitol)
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    ACIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Each 500gm Contain Alkaline Magnesium Carbonate........20 gm Sodium Propionate...........................50 gm Cobalt Sulphate..............................0.040 gm Copper
+                                                    Sulphate.............................0.150 gm Manganese Sulphate......................0.200 gm Ferrous Sulphate...........................0.300 mg Zinc
+                                                    Sulphate..............................0.010 gm Gelatin Powder ..........................29.30 gm Calcium Carbonate up to 500 gms
+                                                </td>
+                                                <td class="table_a">
+                                                    500 GM & 1 KG
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM-A
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each Lit /kg Contain Vitamin A …………….600, 000 IU Nicotinic Acid………..1200mg Vitamin D3 …………..90,000 IU Vitamin E……………..17,000mg Vitamin K……………..1000mg Vitamin B1 ……………400mg Vitamin B2
+                                                    ……………400mg Vitamin B6 ……………1600mg Vitamin B12 ………….1600μg Folic Acid ……………..500mg Biotin …………………..20mg Calcium D-Pantothenate ..2000mg Choline Chloride ……..4000mg Amino Acids DL-methionine
+                                                    ………..8000mg L-lysine hydrochloride ..10,000mg Trace Elements Iron …………………….1600mg Iodine ………………….20mg Cobalt …………………20mg Copper ……………….1400mg Manganese …………..4000mg Zinc …………………….5000mg
+                                                    Selenium ………………7mg "
+                                                </td>
+                                                <td class="table_a">
+                                                    Powder : 1 kg and 5 kg Liquid : 1 lit and 5 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM ES
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each kg contain Vitamin E (alpha- tocopherol acetate)…………45000 mg Sodium selenite………………………………..10 mg L-lysine HCl ……………………………50000 mg "
+                                                </td>
+                                                <td class="table_a">
+                                                    Powder : 1 kg and 5 kg Liquid : 1 lit and 5 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMPLEX ORAL
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each 1000 ml contains Vitamin B1……1700 mg Vitamin B6…….550 mg Vitamin B12......3500 mcg"
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    FERROKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each Lit Contain Iron …………6050 mg Vitamin B6 ….550 mg Cobalt ………..55 mg Vitamin B12 ….3500 μg Copper ……….1700 mg Folic Acid …….550 mg Vitamin B1 ……1350 mg Vitamin B2 ……850 mg "
+                                                </td>
+                                                <td class="table_a">
+                                                    150 GM & 1 KG
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM-C
+                                                </td>
+                                                <td class="table_a">
+                                                    Each gram contain Vitamin C (Ascorbic Acid) ………………1000 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg & 5 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    MINTOKAM-E
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each Lit Contain Potassium Iodide ……….10,000 mg Peppermint Oil………….5000mg Eucalyptus Oil ………….3000mg Vitamin A …………….1000 IU "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAM-0-LYTE
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each 100 gm contains Sodium chloride........1500mg Potassium chloride.....5000mg Glycine.......................3500mg Manganese sulphate...6500mg Magnesium sulphate...700mg Calcium
+                                                    lactate.......1500mg Sodium bicarbonate...1000mg Sodium citrate...........2500mg Vitamin C...................1200mg Calcium hypophosphate..800mg Lactic acid bacillus spores...3500 million
+                                                    In an instant energy base."
+                                                </td>
+                                                <td class="table_a">
+                                                    100 gm, 250 gm and 1 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAM-O-LYTE ORAL
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each Lit Contain Sodium ……………27,100mg Chloride ………….49,500mg Potassium …………6200mg Magnesium ……….300mg Calcium ………….700mg Vitamin B1 ……….770mg Vitamin B6 ……….260mg Vitamin B 12 ………1000μg "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM K
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each ml contain vitamin K3 (Menadione sodium bisulfate)……200 mg Excipents (solvents)…………………………..q.s to 1 ml "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VITAKAM AD3E
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each ml contain Vitamin A……………………………………..100 000 IU Vitamin D3 (cholecalciferol)………………….20 000 IU Vitamin E (alpha- tocopherol acetate)………...20 mg Excipents (solvents) …………………………..q.s to
+                                                    1 ml "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMBOOST POWDER
+                                                </td>
+                                                <td class="table_a">
+                                                    Saccharomyces cerevisiae25 X 109CFU Lactobacillus sporogenes 20 X 109CFU Aspergillus Oryzae 20 X 109 CFU Biotin 10 mg DL-Methionine 1 gm Zinc Sulphate 200 mg Cobalt Sulphate 40 mg
+                                                    Fructo-oligisaccharide 250 mg
+                                                </td>
+                                                <td class="table_a">
+                                                    500 gm & 1 kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    K-PROMIN
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each 500ml Methionine………………..146.7 g Lysine………...…….72.6 g Phosphorus……………….161.85 mg Zinc…………………248.05 mg Iron………………………256.90 mg Cobalt….……………237.20 mg Choline chloride…………72.6 gm
+                                                    Sodium……………..527.85 mg Magnesium………………684.7 mg Calcium…………….1058 mg Copper…………………..182.6 mg Manganese………… 442.25 mg "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMLIV PLUS
+                                                </td>
+                                                <td class="table_a">
+                                                    "Each 100 ml/gm contains Vitamin B1..........40mg Vitamin B12.........35mcg Liver Extract.........1750mg Yeast Extract.........600mg Choline chloride......30g Ascorbic acid...........100mg
+                                                    Saccharomyces cerevisiae.. 250000 million cfu Alpha amylase.......15000mcg Papain..................5000mcg Protein hydrolysate...500mg Inositol........................300mg
+                                                    Biotin..........................25mcg Niacin.........................300mg D panthenol................30mg Base enriched with milk protein, detoxifiers and amino nitrogen. "
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ML & 1000 ML
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    OSTO-KAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Glucosamine HCL 1800mg + Sodium Chondroitin Sulphate 600mg + Manganese Sulphate 16mg + Calcium ascorbate 104mg + Hyaluronic acid-10mg
+                                                </td>
+                                                <td class="table_a">
+                                                    150gm, 500gm, 4.5Kg
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    RACE CARE
+                                                </td>
+                                                <td class="table_a"></td>
+                                                <td class="table_a"></td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    LAXATIVE
+                                                </td>
+                                                <td class="table_a"></td>
+                                                <td class="table_a"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane container fade p-0" id="SkinCare">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMHEX-K SHAMPOO
+                                                </td>
+                                                <td class="table_a">
+                                                    Ketoconazole+Chlorhexidine Shampoo
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 2 .5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    KAMHEX-M SHAMPOO
+                                                </td>
+                                                <td class="table_a">
+                                                    Miconazole+Chlorhexidine shampoo
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 2 .5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    TEROXYKAM SPRAY
+                                                </td>
+                                                <td class="table_a">
+                                                    Oxytetracycline Spray
+                                                </td>
+                                                <td class="table_a">
+                                                    200 ml
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DERMAKAM CREAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Herbal anti-bacterial and anti-fungal cream
+                                                </td>
+                                                <td class="table_a">
+                                                    20 g, 100 g
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DERMAKAM SPRAY
+                                                </td>
+                                                <td class="table_a">
+                                                    Herbal anti-bacterial and anti-fungal spray
+                                                </td>
+                                                <td class="table_a">
+                                                    200 ML
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane container fade p-0" id="Disinfectant">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    GLUTAKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Glutaraldehyde (50%) :7.1% w/v, Alkyl benzyl dimethyl ammonium chloride: 25.7% w/v, Ethoxylate (12) nonyl Phenol: 7.5% w/v
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    GLUTAKAM-DS
+                                                </td>
+                                                <td class="table_a">
+                                                    Glutaraldehyde :11.2% w/v, Benzyl (C12-C16)alkyl dimethyl ammonium chloride : 7.4% w/v, Didecyl dimethyl ammonium chloride: 4.6% w/v
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DISKLEN
+                                                </td>
+                                                <td class="table_a">
+                                                    PHMB 1% & Anti salinty factors to work with Hard water
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DISKLEN-B
+                                                </td>
+                                                <td class="table_a">
+                                                    PHMB 1% with BKC 4% & Anti Salinity Factors
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DISKLEN-C
+                                                </td>
+                                                <td class="table_a">
+                                                    PHMB 10% with Anti salinity factors
+                                                </td>
+                                                <td class="table_a">
+                                                    1 LIT & 5 LIT
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    VIRKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    "Potassium peroxymonosulfate....20.4% Sodium Chloride.....................1.50% Other ingredients......................77.09% Equivalent to 9.50% available Chlorine "
+                                                </td>
+                                                <td class="table_a">
+                                                    1 kg and 25 kg
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane container fade p-0" id="Others">
+                                <div class="col-12 col-sm-12 table-responsive p-0 mt-3">
+                                    <table class="table table-bordered table-hover">
+                                        <tbody>
+                                            <tr align="left">
+                                                <th>
+                                                    BRAND NAME
+                                                </th>
+                                                <th>
+                                                    COMPOSITION
+                                                </th>
+                                                <th>
+                                                    PRESENTATION
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <th class="text-center" colspan="3">
+                                                    SALINE
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    NORMAL SOLUTION
+                                                </td>
+                                                <td class="table_a">
+                                                    0.9 % sodium Chloride Inj
+                                                </td>
+                                                <td class="table_a">
+                                                    1 lit and 5 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DEXTROSESOULTION
+                                                </td>
+                                                <td class="table_a">
+                                                    5% , 10% 20% 25% & 50 % Detrose Inj
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ml & 1 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    DEXTROSE + NORMAL SOLUTION
+                                                </td>
+                                                <td class="table_a">
+                                                    5% Dextrose + 0.9 % Sodium chloride Inj
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ml & 1 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a"></td>
+                                                <td class="table_a">
+                                                    10% Dextrose + 0.9 % Sodium chloride Inj
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ml & 1 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    SODIUM LACTATE SOULTION
+                                                </td>
+                                                <td class="table_a">
+                                                    1.8 % Sodium Lactate Inj
+                                                </td>
+                                                <td class="table_a">
+                                                    500 ml & 1 lit
+                                                </td>
+                                            </tr>
+                                            <tr align="left">
+                                                <th class="text-center" colspan="3">
+                                                    ANTICOLIC
+                                                </th>
+                                            </tr>
+                                            <tr align="left">
+                                                <td class="table_a">
+                                                    PSYLLIKAM
+                                                </td>
+                                                <td class="table_a">
+                                                    Psyllium husk
+                                                </td>
+                                                <td class="table_a">
+                                                    125 gm & 1 KG
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt text-primary me-2"></i>101, Om Sainath Bhawan, <br />
+                            1st floor, Kalyan East, <br />
+                            Thane, India
+                        </p>
+                        <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@ailanthuslifescience.com</p>
+                        <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 9892710694</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-body mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-body mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About</a>
+                            <a class="text-body mb-2" href="global-presence.html"><i class="bi bi-arrow-right text-primary me-2"></i>Global Presence</a>
+                            <a class="text-body mb-2" href="career.html"><i class="bi bi-arrow-right text-primary me-2"></i>Career</a>
+                            <a class="text-body mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Business Division</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-body mb-2" href="human-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Human Health</a>
+                            <a class="text-body mb-2" href="animal-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Animal Health</a>
+                            <a class="text-body mb-2" href="ruminant-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ruminant Health</a>
+                            <a class="text-body mb-2" href="poultry-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Poultry Health</a>
+                            <a class="text-body mb-2" href="canine-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Canine Health</a>
+                            <a class="text-body mb-2" href="equine-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Equine Health</a>
+                            <a class="text-body" href="aqua-health.html"><i class="bi bi-arrow-right text-primary me-2"></i>Aqua Health</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Follow Us</h5>
+                        <div class="d-flex">
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center text-body">
+                        <a class="text-body" href="">Terms & Conditions</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Privacy Policy</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Customer Support</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Payments</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">Help</a>
+                        <span class="mx-1">|</span>
+                        <a class="text-body" href="">FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white-50 py-4">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-12 text-center text-md-start">
+                        <p class="mb-md-0">Copyright &copy; 2018<a class="text-white" href="#"> Kamal Lifes Science</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                // Hamburger menu
+                var navbarToggler = document.querySelectorAll(".navbar-toggler")[0];
+                navbarToggler.addEventListener("click", function (e) {
+                    e.target.children[0].classList.toggle("active");
+                });
+
+                // Select the <html> element
+                var html = document.querySelectorAll("html")[0];
+
+                // Select the first element with the attribute 'data-bs-toggle-theme'
+                var themeToggle = document.querySelectorAll("*[data-bs-toggle-theme]")[0];
+
+                // Set the default theme to 'dark' for the <html> element
+                html.setAttribute("data-bs-theme", "dark");
+
+                // Check if a themeToggle element is found
+                if (themeToggle) {
+                    // Add a click event listener to the themeToggle element
+                    themeToggle.addEventListener("click", function (event) {
+                        // Prevent the default behavior of the click event
+                        event.preventDefault();
+
+                        // Check the current theme attribute value of the <html> element
+                        if (html.getAttribute("data-bs-theme") === "dark") {
+                            // If the current theme is 'dark', change it to 'light'
+                            html.setAttribute("data-bs-theme", "light");
+                        } else {
+                            // If the current theme is not 'dark', change it back to 'dark'
+                            html.setAttribute("data-bs-theme", "dark");
+                        }
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
